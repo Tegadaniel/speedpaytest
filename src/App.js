@@ -1,12 +1,10 @@
-import Body from "./pages/body/Body";
-import Header from "./pages/header/Header";
+import LinkFile from  "./pages";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Body/>
-    </div>
+    <>
+    <LinkFile/>
+    </>
   );
 }
 
